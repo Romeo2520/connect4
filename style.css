@@ -1,0 +1,56 @@
+body{
+     /* background-color: blue; */
+     text-align: center;
+     background-image: url(Game-On.jpg);
+     /* opacity: 0.5; */
+
+}
+
+#connect4 {
+     background-color: blue;
+     display: inline-block;
+     border: solid white 5px;
+}
+
+.col {
+     width: 70px;
+     height: 70px;
+     display: inline-block;
+     background-color: white;
+     border-radius: 50%;
+     margin: 5px; 
+}
+
+.next-red {
+     background-color: rgb(248, 174, 186);
+}
+.next-black {
+     background-color: rgb(251, 252, 187);
+}
+
+.col.red {
+     background-color: red;
+}
+
+.col.black {
+     background-color: black;
+}
+
+.col.empty{
+    cursor: pointer;  
+}
+
+h4{
+     color: white;
+     font-size: 30px;
+}
+
+button{
+     justify-content: end;
+}
+
+#restart{
+     font-size: 25px;
+}
+
+

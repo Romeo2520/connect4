@@ -1,0 +1,53 @@
+body{
+   background-image: url(apps.41929.13910108538401625.dfad4587-dfb3-4aa4-8bed-b5d2dd8fc79f.jpeg); 
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+h2{
+    text-align: center;
+    font-size: 35px;
+}
+
+p{
+    font-size: 22px;
+}
+
+.next{
+    text-align: end;
+    /* margin-top: 100px; */
+}
+
+a{
+    color: rgb(214, 1, 1);
+    font-size: 25px;
+    font-weight: bolder;
+    /* text-decoration: none; */
+}
+
+::backdrop {
+    background-image: linear-gradient(
+      45deg,
+      magenta,
+      rebeccapurple,
+      dodgerblue,
+      green
+    );
+    opacity: 0.75;
+  }
+
+  dialog{
+    width: 510px;
+    overflow-y: hidden;
+  }
+  
+  button{
+    float: right;
+    /* margin-bottom: 300px; */
+    font-size: 30px;
+    background-color: black;
+    color: white;
+  }
